@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    background: url('..img/web_background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #ba6b1c;
+    padding: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.navbar-left img {
+    width: 50px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right img {
+    width: 30px;
+}
+
+.navbar-right-container {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.sign-up, .login {
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+.signuplink, .loginlink {
+    text-decoration: none;
+    color: #1a1b1b;
+}
+
+.cart, .home {
+    text-decoration: none;
+    color: #1a1b1b;
+    margin: 3px;
+    padding: 5px;
+}
+
+.home:hover, .cart:hover {
+    opacity: 0.6;
+}
+
+.sign-up:hover, .login:hover {
+    background-color: #1a1b1b;
+    color: #ba6b1c;
+}
+
+
